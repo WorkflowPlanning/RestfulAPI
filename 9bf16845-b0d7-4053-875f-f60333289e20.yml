@@ -1,0 +1,13 @@
+publicKeyPath: /Users/zh9314/SWITCH/users/zh9314/files/1479928399024/id_dsa.pub
+userName: zh9314
+subnets:
+  - name: s1
+    subnet: 192.168.10.0
+    netmask: 255.255.255.0
+components:
+  - name: 2d13d708e3a9441ab8336ce874e08dd1
+    type: Switch.nodes.Compute
+    nodetype: t2.medium
+  - name: 8fcc1788d9ee462c826572c79fdb2a6a
+    type: Switch.nodes.Compute
+    nodetype: t2.small
